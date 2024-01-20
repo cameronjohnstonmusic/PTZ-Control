@@ -2,10 +2,10 @@
 	"name" : "PTZ-Control",
 	"version" : 1,
 	"creationdate" : 3785181012,
-	"modificationdate" : 3785181403,
-	"viewrect" : [ 25.0, 119.0, 300.0, 500.0 ],
+	"modificationdate" : 3788562017,
+	"viewrect" : [ 25.0, 118.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
-	"hideprojectwindow" : 0,
+	"hideprojectwindow" : 1,
 	"showdependencies" : 1,
 	"autolocalize" : 1,
 	"contents" : 	{
@@ -16,7 +16,7 @@
 				"toplevel" : 1,
 				"singleton" : 				{
 					"bootpath" : "~/Documents/Programming/FCCLA-PTZ-and-Stream-Control/PTZ-Control",
-					"projectrelativepath" : "../../Programming/FCCLA-PTZ-and-Stream-Control/PTZ-Control"
+					"projectrelativepath" : "../../FCCLA-PTZ-and-Stream-Control/PTZ-Control"
 				}
 
 			}
@@ -26,9 +26,29 @@
 				"local" : 1
 			}
 ,
+			"qrtext_me.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"scripthiding_me.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
+			}
+,
+			"xboxController.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"inputxboxone.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1,
+				"singleton" : 				{
+					"bootpath" : "~/Documents/Programming/FCCLA-PTZ-and-Stream-Control/PTZ-Control",
+					"projectrelativepath" : "../../FCCLA-PTZ-and-Stream-Control/PTZ-Control"
+				}
+
 			}
 ,
 			"Bang Correct Camera.maxpat" : 			{
@@ -36,7 +56,7 @@
 				"local" : 1,
 				"singleton" : 				{
 					"bootpath" : "~/Documents/Programming/FCCLA-PTZ-and-Stream-Control/PTZ-Control",
-					"projectrelativepath" : "../../Programming/FCCLA-PTZ-and-Stream-Control/PTZ-Control"
+					"projectrelativepath" : "../../FCCLA-PTZ-and-Stream-Control/PTZ-Control"
 				}
 
 			}
@@ -46,7 +66,7 @@
 				"local" : 1,
 				"singleton" : 				{
 					"bootpath" : "~/Documents/Programming/FCCLA-PTZ-and-Stream-Control/PTZ-Control",
-					"projectrelativepath" : "../../Programming/FCCLA-PTZ-and-Stream-Control/PTZ-Control"
+					"projectrelativepath" : "../../FCCLA-PTZ-and-Stream-Control/PTZ-Control"
 				}
 
 			}
@@ -56,17 +76,7 @@
 				"local" : 1,
 				"singleton" : 				{
 					"bootpath" : "~/Documents/Programming/FCCLA-PTZ-and-Stream-Control/PTZ-Control",
-					"projectrelativepath" : "../../Programming/FCCLA-PTZ-and-Stream-Control/PTZ-Control"
-				}
-
-			}
-,
-			"qrtext_me.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Documents/Programming/FCCLA QR Code Generator",
-					"projectrelativepath" : "../../Programming/FCCLA QR Code Generator"
+					"projectrelativepath" : "../../FCCLA-PTZ-and-Stream-Control/PTZ-Control"
 				}
 
 			}
@@ -76,17 +86,7 @@
 				"local" : 1,
 				"singleton" : 				{
 					"bootpath" : "~/Documents/Programming/FCCLA-PTZ-and-Stream-Control/PTZ-Control",
-					"projectrelativepath" : "../../Programming/FCCLA-PTZ-and-Stream-Control/PTZ-Control"
-				}
-
-			}
-,
-			"inputxboxone.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Documents/Programming/FCCLA-PTZ-and-Stream-Control/PTZ-Control",
-					"projectrelativepath" : "../../Programming/FCCLA-PTZ-and-Stream-Control/PTZ-Control"
+					"projectrelativepath" : "../../FCCLA-PTZ-and-Stream-Control/PTZ-Control"
 				}
 
 			}
@@ -96,12 +96,7 @@
 		"media" : 		{
 			"xboxoneillustration.png" : 			{
 				"kind" : "imagefile",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Documents/Programming/FCCLA-PTZ-and-Stream-Control/PTZ-Control",
-					"projectrelativepath" : "../../Programming/FCCLA-PTZ-and-Stream-Control/PTZ-Control"
-				}
-
+				"local" : 1
 			}
 ,
 			"Jules.png" : 			{
@@ -124,32 +119,17 @@
 ,
 			"pdf.js" : 			{
 				"kind" : "javascript",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Documents/Programming/FCCLA QR Code Generator",
-					"projectrelativepath" : "../../Programming/FCCLA QR Code Generator"
-				}
-
+				"local" : 1
 			}
 ,
 			"qr.js" : 			{
 				"kind" : "javascript",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Documents/Programming/FCCLA QR Code Generator",
-					"projectrelativepath" : "../../Programming/FCCLA QR Code Generator"
-				}
-
+				"local" : 1
 			}
 ,
 			"googlesheets.js" : 			{
 				"kind" : "javascript",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Documents/Programming/FCCLA-PTZ-and-Stream-Control/PTZ-Control",
-					"projectrelativepath" : "../../Programming/FCCLA-PTZ-and-Stream-Control/PTZ-Control"
-				}
-
+				"local" : 1
 			}
 
 		}
@@ -157,20 +137,15 @@
 		"data" : 		{
 			"cameraIPs.txt" : 			{
 				"kind" : "textfile",
-				"local" : 1,
-				"singleton" : 				{
-					"bootpath" : "~/Documents/Programming/FCCLA-PTZ-and-Stream-Control",
-					"projectrelativepath" : "../../Programming/FCCLA-PTZ-and-Stream-Control"
-				}
-
+				"local" : 1
 			}
 ,
 			"shatto_cameras.txt" : 			{
 				"kind" : "textfile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Documents/Programming/FCCLA-PTZ-and-Stream-Control",
-					"projectrelativepath" : "../../Programming/FCCLA-PTZ-and-Stream-Control"
+					"bootpath" : "~/Documents/Programming/FCCLA-PTZ-and-Stream-Control/PTZ-Control",
+					"projectrelativepath" : "../../FCCLA-PTZ-and-Stream-Control/PTZ-Control"
 				}
 
 			}
@@ -179,8 +154,8 @@
 				"kind" : "textfile",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Documents/Programming/FCCLA-PTZ-and-Stream-Control",
-					"projectrelativepath" : "../../Programming/FCCLA-PTZ-and-Stream-Control"
+					"bootpath" : "~/Documents/Programming/FCCLA-PTZ-and-Stream-Control/PTZ-Control",
+					"projectrelativepath" : "../../FCCLA-PTZ-and-Stream-Control/PTZ-Control"
 				}
 
 			}
@@ -210,8 +185,8 @@
 				"kind" : "file",
 				"local" : 1,
 				"singleton" : 				{
-					"bootpath" : "~/Documents/Programming/FCCLA-PTZ-and-Stream-Control",
-					"projectrelativepath" : "../../Programming/FCCLA-PTZ-and-Stream-Control"
+					"bootpath" : "~/Documents/Programming/FCCLA-PTZ-and-Stream-Control/PTZ-Control",
+					"projectrelativepath" : "../../FCCLA-PTZ-and-Stream-Control/PTZ-Control"
 				}
 
 			}
